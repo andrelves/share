@@ -31,7 +31,7 @@ body {
     text-shadow: 0 6px 10px rgba(0, 0, 0, 0.7); /* Sombra escura para profundidade */
 
     /* Posição ajustada para ficar EMBAIXO do logo do leão */
-    top: 45%;
+    top: 80%;
     left: 25%;
 }
 
@@ -40,7 +40,7 @@ body {
     text-shadow: 0 6px 10px rgba(0, 0, 0, 0.7); /* Sombra escura para profundidade */
 
     /* Posição ajustada para ficar EMBAIXO do logo do Shalom */
-    top: 45%;
+    top: 80%;
     left: 75%;
 }
 
