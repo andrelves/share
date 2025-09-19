@@ -1,0 +1,53 @@
+/* Configurações Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+/* Estilo base para os números do placar */
+.score {
+    position: absolute;
+    font-size: 22vw; /* Tamanho da fonte que se ajusta à tela */
+    line-height: 1;
+    transform: translate(-50%, -50%); /* Centraliza o número na coordenada exata */
+}
+
+
+/* --- POSICIONAMENTO E CORES FINAIS --- */
+
+#score-ekballo {
+    color: white; /* Alterado para branco */
+    text-shadow: 0 6px 10px rgba(0, 0, 0, 0.7); /* Sombra escura para profundidade */
+
+    /* Posição ajustada para ficar EMBAIXO do logo do leão */
+    top: 27%;
+    left: 25%;
+}
+
+#score-shalom {
+    color: white; /* Alterado para branco */
+    text-shadow: 0 6px 10px rgba(0, 0, 0, 0.7); /* Sombra escura para profundidade */
+
+    /* Posição ajustada para ficar EMBAIXO do logo do Shalom */
+    top: 27%;
+    left: 75%;
+}
+
+
+/* Ajuste para telas de celular */
+@media (max-width: 45px) {
+    .score {
+        font-size: 30vw;
+    }
+}
